@@ -1,0 +1,88 @@
+// .captcha-container {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     margin: 20px;
+//     padding: 10px;
+//     border: 1px solid #ccc;
+//     border-radius: 5px;
+//   }
+
+//   .captcha-text {
+//     font-size: 20px;
+//     font-weight: bold;
+//     margin: 10px 0;
+//     letter-spacing: 5px;
+//     color: #333;
+//   }
+
+//   input {
+//     padding: 5px;
+//     margin-bottom: 10px;
+//   }
+
+
+
+.container {
+  
+  color: #fff; /* White text color */
+  padding: 20px; /* Add some padding for better visual appearance */
+  border-radius: 10px; /* Optional: add rounded corners */
+}
+
+.card {
+  background-color: #333; /* Darker background for cards */
+  border-radius: 10px; /* Rounded corners for cards */
+  color: #fff; /* White text color for cards */
+}
+
+.card-header {
+  background-color: #000; /* Dark black background for card header */
+  color: #fff; /* White text color */
+}
+
+.form-control {
+  background-color: #444; /* Darker background for input */
+  color: #fff; /* White text color for input */
+  border: 1px solid whitesmoke; /* Border to distinguish input area */
+}
+
+.form-control::placeholder {
+  color: #aaa; /* Lighter color for placeholder text */
+}
+
+.btn-dark {
+  background-color: #555; /* Dark button background */
+  border-color: #555; /* Dark button border */
+}
+
+.btn-dark:hover {
+  background-color: #333; /* Darken button on hover */
+  border-color: #333; /* Darken button border on hover */
+}
+
+.text-danger {
+  color: #ff4d4d; /* Red text color for error messages */
+}
+
+.captcha-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.captcha-text {
+  background-color: #444;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 10px 0;
+  letter-spacing: 5px;
+}

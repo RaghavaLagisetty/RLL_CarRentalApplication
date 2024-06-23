@@ -1,0 +1,16 @@
+  input {
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+
+
+  .dark-mode .card {
+    background-color: #333; /* Darker card background */
+    border-color: #555; /* Darker border color for card */
+  }
+  
+  .dark-mode .form-control {
+    background-color: #444; /* Darker input background */
+    color: #fff; /* Light input text color */
+    border-color: white; /* Darker border color for inputs */
+  }

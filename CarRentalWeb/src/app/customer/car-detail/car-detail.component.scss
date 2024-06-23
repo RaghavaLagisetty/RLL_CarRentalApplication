@@ -1,0 +1,33 @@
+.dark-mode {
+    color: #fff; /* Light text color */
+  }
+  
+  .dark-mode .card {
+    background-color: #333; /* Darker card background */
+    border-color: #555; /* Darker border color for card */
+  }
+  
+  .dark-mode .card-header {
+    background-color: #222; /* Darker header background color */
+    border-color: #333; /* Darker header border color */
+  }
+  
+  .dark-mode .form-control {
+    background-color: #444; /* Darker input background */
+    color: #fff; /* Light input text color */
+    border-color: white; /* Darker border color for inputs */
+  }
+  
+  .dark-mode .btn-primary {
+    background-color: #007bff; /* Primary button background color */
+    border-color: #007bff; /* Primary button border color */
+  }
+  
+  .dark-mode .btn-primary:hover {
+    background-color: #0056b3; /* Darker hover color for primary button */
+    border-color: #0056b3; /* Darker border hover color for primary button */
+  }
+  
+  .dark-mode .text-light {
+    color: #ccc; /* Light text color */
+  }

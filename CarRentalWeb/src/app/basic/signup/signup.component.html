@@ -1,0 +1,47 @@
+<!-- signup.component.html -->
+
+<div class="container mt-5 dark-mode">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <div class="card bg-dark text-light">
+        <div class="card-header bg-dark text-white">
+          <h2 class="mb-0">Sign Up</h2>
+        </div>
+        <div class="card-body">
+          <form [formGroup]="signupForm" (ngSubmit)="onSubmit()">
+            <div class="form-group">
+              <label for="username" class="text-light">Username:</label>
+              <input type="text" id="username" formControlName="username" class="form-control" required>
+              <div *ngIf="signupForm.get('username').hasError('required') && signupForm.get('username').touched" class="text-danger mt-1">
+                Username is required.
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="email" class="text-light">Email:</label>
+              <input type="email" id="email" formControlName="email" class="form-control" required>
+              <div *ngIf="signupForm.get('email').hasError('required') && signupForm.get('email').touched" class="text-danger mt-1">
+                Email is required.
+              </div>
+              <div *ngIf="signupForm.get('email').hasError('email') && signupForm.get('email').touched" class="text-danger mt-1">
+                Please enter a valid email address.
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="password" class="text-light">Password:</label>
+              <input type="password" id="password" formControlName="password" class="form-control" required>
+              <div *ngIf="signupForm.get('password').hasError('required') && signupForm.get('password').touched" class="text-danger mt-1">
+                Password is required.
+              </div>
+            </div>
+
+            <div class="text-center mt-3">
+              <button type="submit" class="btn btn-primary">Sign Up</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

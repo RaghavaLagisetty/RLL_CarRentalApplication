@@ -1,0 +1,30 @@
+body {
+    background: linear-gradient(to bottom, #d1e3ff, #d9b3ff);
+    color: #fff; /* White text color */
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+ 
+  
+  .card {
+    background-color: #333; /* Darker background for cards */
+    border-radius: 10px; /* Rounded corners for cards */
+    color: #fff; /* White text color for cards */
+    overflow: hidden; /* Ensure corners are respected */
+  }
+  
+  .card-title, .card-text {
+    color: #fff; /* White text color for card content */
+  }
+  
+  .card .btn-primary {
+    background-color: #007bff; /* Ensure buttons have the primary color */
+    border-color: #007bff; /* Ensure buttons have the primary color */
+  }
+  
+  .card .btn-primary:hover {
+    background-color: #0056b3; /* Darken button color on hover */
+    border-color: #004085; /* Darken button color on hover */
+  }

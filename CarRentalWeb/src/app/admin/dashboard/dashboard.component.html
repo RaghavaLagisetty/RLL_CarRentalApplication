@@ -1,0 +1,21 @@
+<div class="container mt-3">
+  <h2 class="car-list-title">Car List</h2>
+  <div class="row">
+    <div *ngFor="let car of allCars" class="col-md-4 mb-3">
+      <div class="card car-card">
+        <img [src]="'data:image/jpeg;base64,' + car.img" class="card-img-top" alt="Car Image">
+        <div class="card-body">
+          <h5 class="card-title">{{ car.make }} {{ car.model }}</h5>
+          <p class="card-text">
+            <strong class="text-white">Year:</strong> {{ car.year }}<br>
+            <strong class="text-white">Odometer Reading:</strong> {{ car.odometerReading }}<br>
+            <strong class="text-white">Cost Per Kilometer:</strong> ${{ car.costPerKilometer }}<br>
+            <strong class="text-white">Car Type:</strong> {{ car.type ? car.type.name : 'N/A' }}
+          </p>
+          <a routerLink="/admin/update-car/{{car.id}}" class="btn btn-primary">Update</a>
+          <a (click)="deleteCar(car.id)" class="btn btn-danger ml-2">Delete</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

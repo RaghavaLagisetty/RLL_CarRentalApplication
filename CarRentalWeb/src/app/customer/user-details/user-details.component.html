@@ -1,0 +1,20 @@
+<div class="container mt-5">
+  <div class="card card-dark" *ngIf="user">
+    <div class="card-header">
+      <h5>User Details</h5>
+    </div>
+    <div class="card-body">
+      <div class="row">
+        <div class="col-md-6">
+          <p><strong>ID:</strong> {{ user.id }}</p>
+          <p><strong>Username:</strong> {{ user.username }}</p>
+          <p><strong>Email:</strong> {{ user.email }}</p>
+        </div>
+        <div class="col-md-6">
+          <p><strong>Role:</strong> {{ user.role }}</p>
+          <p><strong>Loyalty Points:</strong> {{ user.royaltyPoints }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

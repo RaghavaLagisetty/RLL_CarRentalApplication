@@ -1,0 +1,20 @@
+h5{
+    color: aliceblue;
+}
+.card-dark {
+    background-color: #000; /* Dark black background */
+    color: #fff; /* White text color */
+  }
+  
+  .card-dark .card-header {
+    background-color: #1a1a1a; /* Slightly lighter black for the header */
+    border-bottom: 1px solid #333; /* Border for better separation */
+  }
+  
+  .card-dark .card-header {
+    color: #fff; /* White text color for header */
+  }
+  
+  .card-dark .card-body p {
+    color: #fff; /* White text color for body */
+  }

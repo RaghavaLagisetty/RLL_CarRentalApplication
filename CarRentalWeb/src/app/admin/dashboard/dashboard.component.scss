@@ -1,0 +1,36 @@
+body {
+    background: linear-gradient(to bottom, #d1e3ff, #d9b3ff);
+    color: #fff; /* White text color */
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    color: #fff; /* White text color */
+  }
+  
+  .car-list-title {
+    color: rgb(17, 1, 1);
+  }
+  
+  .card.car-card {
+    background-color: #111111;
+  }
+  
+  .card-img-top {
+    max-width: 100%;
+    max-height: 200px;
+  }
+  
+  .card-body {
+    color: #fff; /* White text color */
+  }
+  
+  .text-white {
+    color: #fff; /* White text color for strong elements */
+  }
+  
+  .ml-2 {
+    margin-left: 10px;
+  }

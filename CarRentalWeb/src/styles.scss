@@ -1,0 +1,35 @@
+.bg-custom{
+    background: linear-gradient(to bottom, 
+                #A0D2EB 0%, 
+                #A4CDE6 20%, 
+                #A9C9E2 25%, 
+                #E5EAF5 30%, 
+                #D5C8F2 45%, 
+                #D0B0F8 50%, 
+                #B79ED7 60%, 
+                #9F8BB6 70%, 
+                #845BB3 80%, 
+                #67688A 90%, 
+                #494D5F 100%);
+  }
+  
+  
+  body {
+    background: linear-gradient(to bottom,
+      #A0D2EB 0%,
+      #A4CDE6 20%,
+      #A9C9E2 25%,
+      #E5EAF5 30%,
+      #D5C8F2 45%,
+      #D0B0F8 50%,
+      #B79ED7 60%,
+      #9F8BB6 70%,
+      #845BB3 80%,
+      #67688A 90%,
+      #494D5F 100%);
+    background-attachment: fixed;
+    background-size: 100% 100vh;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
